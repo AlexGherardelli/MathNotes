@@ -29,7 +29,7 @@ Alcune relazioni godono di speciali proprietà
 *Essere in relazione con se stesso*
 
 > **DEFINIZIONE** 
-> Una relazione $R \subseteq A \times A$ è **riflessiva** se $\forall (x, y) \in A: (x, y) \in R$ 
+> Una relazione $R \subseteq A \times A$ è **riflessiva** se $\forall a \in A: (a, a) \in R$ 
 > vale a dire
 > 
 >> $R \subseteq A \times A = \{ \forall a \in A : a \mathrel{R} a \}$
@@ -48,19 +48,15 @@ Alcune relazioni godono di speciali proprietà
 *Non essere in relazione con se stesso*
 
 > **DEFINIZIONE**: 
-> Una relazione $R \subseteq A \times A$  è **antiriflessiva** se \forall(x, y) \in A: (x, y) \notin R 
+> Una relazione $R \subseteq A \times A$  è **antiriflessiva** se $\forall x \in A: (a, a) \notin R$
 > vale a dire
-> 
+> $\forall a \in R: a \not \mathrel{R} a$
 
 **Esempi**:
 - Non essere uguale a 
 - Essere sottoinsieme proprio di $\subset$
 - Essere maggiore di 
 - Essere minore di
-
-
- has (b,a)∈R, so the statement is vacuously true.
-
 
 ### Proprietà simmetrica
 > **DEFINIZIONE**
@@ -89,7 +85,7 @@ Alcune relazioni godono di speciali proprietà
 - essere sottoinsieme di $\subseteq$
 
 
->> **ATTENZIONE**: antisimmetrica $\not =$ asimmetrica: ($\forall x, y \in A: a \mathrel{R} b \implies \lnot (b \mathrel{R} a$)
+>> **ATTENZIONE**: antisimmetrica $\not =$ asimmetrica: ($\forall a, b \in A: a \mathrel{R} b \implies \lnot (b \mathrel{R} a$)
 
 Esempi di proprietà asimmetriche: 
 - essere maggiore di
@@ -140,7 +136,7 @@ La relazione tra insiemi vuoti è anche **simmetrica**, **antisimmetrica** e **t
 
 _The empty relation R (defined so that aRb is never true) on a set X is vacuously symmetric and transitive; however, it is not reflexive (unless X itself is empty)._
 
-#### Relazione simmetrica e antisimmetrica**
+#### Relazione simmetrica e antisimmetrica
 Ci sono fondamentalmente due casi in cui una relazione può essere simmetrica e anti-simmetrica
 
 1. Relazione insieme vuoto
@@ -237,41 +233,71 @@ La chiusura transitiva è leggermente più complicata, ma può essere considerat
 La transitività è preservata nell'intersezione ma non nell'unione.
 
 
-$$
-%% Transitive Closure on a Finite Set.
-
-%%If R is a relation on a set $A$ and $|A| = n$ , then thetransitive closure of $R$ is the union of the first $n$ powers of r. That is,$
-
-%%r^+ = r \cup  r^2 \cup  r ^3 \cup \cdots  \cup  r^n\text{.}
-$$
 
 > **_NOTA_** **Chiusura e intersezione**
 > Una confusione micidiale qui! O_O Pure nella nota esplicativa.
 
-
-
-
 # Relazioni speciali
 
 ## Relazione di equivalenza
-Una relazione di equivalenza è una relazione $R$ sull'insieme $A$ che gode delle proprietà **riflessiva, simmetrica e transitiva**.
 
-**Esempio**:
+> **DEFINIZIONE: RST**
+> Una relazione di equivalenza è una relazione $R$ sull'insieme $A$ che gode delle proprietà **riflessiva, simmetrica e transitiva**.
+
+Due elementi $a$ e $b$ legati da una relazione di equivalenza sono chiamati elementi equivalenti e generalmente denotati come a ∼ b or a ≡ b.
+
+**Esempi**:
 - essere uguale a
+- essere pari / essere dispari
 - avere la stessa area di 
 - essere simile a (proprietà dei triangoli)
 - essere congruente a (proprietà dei triangoli)
+  
+*Esempi non matematici*:
+- $a$ e $b$ vivono nella stessa città
+- $a$ e $b$ hanno la stessa età
+- $a$ e $b$ sono nati lo stesso giorno
+- qualsiasi relazione che ha frase "hanno lo stesso/a"o "sono lo stesso/a"
 
 *La relazione "essere maggiore o uguale a" invece non è una relazioen di equivalenza perché la relazione è riflessiva e transitiva, ma non è simmetria*.
-
 
 ### Classi di equivalenza
 La classe di equivalenza di un elemento $[a]_{x}$ è il sottoinsieme formato da tutti gli elementi $x$ cn la stessa proprietà di $a$.
 
-## Relazione di ordine parziale
+**Esempio**
+Sull'insieme $A = \{ a, b, c\}$, la relazione $R = \{ (a, a), (b, b), (c, c), (b, c), (c, b)\}$ è una relazione di equivalenza. Le classi di equivalenza su questa relazione sono:
+$$
+[a] = \{a\}, \quad [b] = [c] = \{ b, c\}
+$$
 
-## Relazione di ordine stretto (totale)
+## Relazione di ordine parziale ($\leq$)
+
+> **DEFINIZIONE: RAT**
+> In una relazione $R \subseteq A \times A$, tale relazione è detta d'ordine parziale quando gode delle proprietà **riflessiva, antisimmetrica e transitiva** (RAT)
+
+Un insieme parzialmente ordinato si chiama **poset** (partially ordered set).
+
+
+## Relazione di ordine stretto o totale ($<$)
+> **DEFINIZIONE**
+> In una relazione $R \subseteq A \times A$, tale relazione è detta d'ordine stretto quando gode delle proprietà **antiriflessiva e transitiva** (aRT)
+
+Una relazione di ordine stretto è un caso particolare di ordinamento parziale
+$$
+\forall (a, b) \in A: (a \mathrel{R} b) \lor (b \mathrel{R} a)
+$$
+
+### Relazione inversa $R^{-1}$
+Nella relazione inversa, le proprietà si mantengono: la nuova relazione è sempre una relazione d'ordine, dunque con proprietà riflessiva, antisimmetrica e transitiva. 
+
+
 
 ## Relazione di pre-ordine
+> **DEFINIZIONE**
+> In una relazione $R \subseteq A \times A$, tale relazione è detta di pre-ordine quando gode delle proprietà **riflessiva e transitiva** (RT)
+
 
 ### Partizione
+Si verifica quando, in un insieme, ogni elemento appartiene a un gruppo di sottoinsieme.
+
+Dato un insieme A, una famiglia P di sottoinsiemi di A si chiama partizione di A se ogni $a \in A$ appartiene ad uno ed un solo insieme della famiglia P.

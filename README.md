@@ -8,6 +8,7 @@ Gli appunti contenuti nel repo riassumono le lezioni del Prof. Pietro Cenciarell
 - Bagni, Gorla, Labella "Introduzione alla logica e al linguaggio matematico", 2010, McGraw Hill (libro di testo)
 - Hammack, "The Book of Proof", 2018, https://www.people.vcu.edu/~rhammack/BookOfProof/
 - Doerr, Levasseur, "Applied Discrete Structures", 2021, https://discretemath.org/ads/index-ads.html
+- - https://math24.net 
 - materiale vario trovato su internet (e.g. MathExchange)
 
 ## English
@@ -17,4 +18,5 @@ These notes summarizes Prof. Pietro Cenciarelli lectures as well as other materi
 - Bagni, Gorla, Labella "Introduzione alla logica e al linguaggio matematico", 2010, McGraw Hill (libro di testo)
 - Hammack, "The Book of Proof", 2018, https://www.people.vcu.edu/~rhammack/BookOfProof/
 - Doerr, Levasseur, "Applied Discrete Structures", 2021, https://discretemath.org/ads/index-ads.html
+- https://math24.net 
 - other material found on the internet (e.g. MathExchange)
