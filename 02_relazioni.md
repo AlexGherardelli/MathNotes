@@ -296,6 +296,7 @@ Nella relazione inversa, le proprietà si mantengono: la nuova relazione è semp
 > **DEFINIZIONE**
 > In una relazione $R \subseteq A \times A$, tale relazione è detta di pre-ordine quando gode delle proprietà **riflessiva e transitiva** (RT)
 
+E' una definizione più "lassa" di quella di ordine o di equivalenza, fondamentalmente 
 
 ### Partizione
 Si verifica quando, in un insieme, ogni elemento appartiene a un gruppo di sottoinsieme.
