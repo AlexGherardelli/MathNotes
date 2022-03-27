@@ -1,21 +1,17 @@
 
 # Insiemi
 
-## Definizione di un insieme: assioma di estensione e assioma di specificazione
+## Assioma di estensione e specificazione
 Insieme come collezione di oggetti, chiamati elementi, i quali sono associato ad esso tramite proprietà generali. Insiemi possono contenere qualunque cosa: si può parlare di insiemi di persone, di animali, di cose. Ovviamente, in matematica siamo interessati a insiemi di entità matematiche e delle loro proprietà. 
 
 Un insieme si può definire "elencando" i suoi elementi, che possono appartenere ($\in$) o meno ($\notin$) all'insieme. Un insieme può avere un numero infinito di elementi. In questo caso si chiama insieme infinito, altrimenti è un insieme finito. Il numero di elementi di un insieme si dice **cardinalità**.
+<br/>
 
-
-> **DEFINIZIONE**
-> 
->  **Assioma di Estensione**
+> **DEFINIZIONE**: **Assioma di Estensione**
 > 
 > Due insiemi sono uguali se e solo se hanno gli stessi elementi. 
-> 
 
-
-
+<br/>
 Dall'assioma di estensione ne consegue che: 
 - Non esiste una nozione di ordinamento all'interno di un insieme
 - Le ripetizioni in un insieme non vengono contate
@@ -24,19 +20,25 @@ Dall'assioma di estensione ne consegue che:
 
 **Relazione di sottoinsieme**
 
-Come conseguenza dell'assioma di estensione, si può definire la relazione di **essere sottoinsieme di**: $B \subset A$ **se e solo se ogni elemento di B è elemento di A**
+Come conseguenza dell'assioma di estensione, si può definire la relazione di **essere sottoinsieme di**: 
+<br/>
 
+>**DEFINIZIONE: Sottoinsieme**
+$B \subset A$ **se e solo se ogni elemento di B è elemento di A**
 
-> **NOTA** Se $A \subset B$ e $B \subset A$, allora $A = B$
+> **DEFINIIZIONE: Uguaglianza tra insiemi**
+> Se $A \subset B$ e $B \subset A$, allora $A = B$
 
+<br/>
 Esiste anche un insieme "speciale" che non contiene alcun elemento, l'insieme vuoto $\varnothing = \{\}$. L'insieme vuoto è sottoinsieme di qualunque insieme.
 
-> **DIMOSTRAZIONE** Qualunque elemento di un insieme vuoto è anche un elemento di A. Visto che in un insieme vuoto non ci sono elementi, allora $\varnothing \subset A$
+> **DIMOSTRAZIONE** 
+> 
+> Qualunque elemento di un insieme vuoto è anche un elemento di A. Visto che in un insieme vuoto non ci sono elementi, allora $\varnothing \subset A$
 
 Ne consegue anche che ogni insieme è sottoinsieme di se stesso $A \subseteq A$, dato che ogni elemento di A è elemento di A.
-
->  **DEFINIZIONE**
-> **Assioma di specificazione**
+<br/>
+>  **DEFINIZIONE**: **Assioma di specificazione**
 > Ad ogni insieme $A$ e ad ogni proprietà $P(x)$ che predica sugli elementi $x$ di $A$, corrisponde un insieme $\{x  \in A: P(x)\}$ i cui elementi sono esattamente quelli di $A$ che soddisfano $P$
 
 $$
@@ -65,13 +67,12 @@ A \cup B = \{x: x \in A \quad or \quad x \in B \}
 $$
 
 L'unione tra A e B contiene gli elementi contenuti in A **o** B: dunque ne risulta un set "più grande" sia di A che di B (se A e B sono diversi).
-
-> **DEFINIZIONE**
-> 
-> **Assioma dell'unione**
+<br/>
+> **DEFINIZIONE**: **Assioma dell'unione**
 > 
 > Per ogni collezione $C$ di insiemi, esiste un insieme $U$ che contiene tutti gli elementi che appartengono almeno ad un insieme della collezione.
 
+<br/>
 
 ### Differenza
 $$
@@ -88,6 +89,8 @@ La differenza tra gli insiemi $A$ e $B$ è l'insieme delle cose che sono in A ma
 > 
 > Differenza e sottoinsiemi:
 > $A \subset B$ sse $A - B = \varnothing$
+> <br/>
+
 
 ### Complemento
 Il complemento è un tipo particolare di differenza che si verifica quando $B \subset A$, $A - B$ si chiamna complemento di B rispetto ad A$
@@ -209,7 +212,7 @@ Sia $S \subseteq A \times B$. Si dice proiezione $S$ su $A$ l'insieme $\{a : a \
 
 > **ESEMPIO**
 > 
-> Sia $S$ il sottoinsieme di $\mathbb{N} \times \mathbb{N$ costituito dalle coppie $(n, m)$ tali che $n+m = 3$
+> Sia $S$ il sottoinsieme di $\mathbb{N} \times \mathbb{N}$ costituito dalle coppie $(n, m)$ tali che $n+m = 3$
 > 
 > $S = \{(0, 3), (1, 2), (2, 1), (3, 0)\}$
 > La proiezione di $S$ su entrambe le sue componenti è $S = \{ 0, 1, 2, 3\}$
