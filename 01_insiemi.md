@@ -216,3 +216,7 @@ Sia $S \subseteq A \times B$. Si dice proiezione $S$ su $A$ l'insieme $\{a : a \
 > 
 > $S = \{(0, 3), (1, 2), (2, 1), (3, 0)\}$
 > La proiezione di $S$ su entrambe le sue componenti è $S = \{ 0, 1, 2, 3\}$
+
+
+## Antinomie degli insiemi - Russel's Pararadox
+AGGIUNGERE
