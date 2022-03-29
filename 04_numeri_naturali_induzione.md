@@ -30,3 +30,12 @@ E' utilizzato per dimostrare che una proprietà $P$ vale per una serie infinita 
 $$
 \frac{P(0) \quad \quad P(n) \implies P{n+1}}{\forall N, P(n)}
 $$
+
+## Induzione non per $P(0)$
+Esistono alcuni casi che non possono essere risolti se nel caso base partiamo da $P(0)$ e.g. bisogna partire dai numeri $n > 2$. In questo caso il principio di induzione rimane valido, ma va applicato su una nuova proprietà $Q(n)$ ottenuta modificando $P(n)$, in modo tale che sia vera per la traccia del prolema da verificare 
+
+<!-- ESEMPIO MANCANTE-->
+
+## Induzione completa
+In alcuni casi (come quello degli alberi binari) occorre utilizzare un diverso modo di applicazione del principio di induzione: 
+1. 
