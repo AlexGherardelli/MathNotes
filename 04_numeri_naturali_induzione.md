@@ -15,3 +15,18 @@ Giuseppe Peano nel 1891 propone una versione assiomatica basata su tre concetti 
 5. se $a \in \N$, allora $S(a) \not = 0$
 
 # Induzione
+Il principio di induzione è una tecnica di dimostrazione che consente di dimostrare la validità di una tesi dalla verifica di due condizioni: la validità del *passo zero* e la validità del *passo induttivo*. [Principio di Induzione - YouMath](https://www.youmath.it/lezioni/analisi-matematica/successioni/701-dimostrazioni-con-il-principio-di-induzione.html)
+
+E' utilizzato per dimostrare che una proprietà $P$ vale per una serie infinita di numeri - per verificare ciò basta che sia vero per $n$ e per $n + 1$, e ne conseguirà che è valida per tutti i numeri. 
+
+**Principio di induzione**: $P(n) da dimostrare sia vera per $\forall n \in \N$
+
+1. **Caso base**: dimostrazione verità di $P(0), \ n \leq n_{0} \leq 0$
+2. **Passo induttivo**: si ammette la verità di $P(n)$, si dimostra la verità di $P(n+1)$
+
+>**DEFINIZIONE**
+>Se $P$ è un predicato su $\N$ tale che vale $P(0)$, e inolte $P(n) \implies P(n + 1)$, allora $\forall n, P(n)$
+
+$$
+\frac{P(0) \quad \quad P(n) \implies P{n+1}}{\forall N, P(n)}
+$$

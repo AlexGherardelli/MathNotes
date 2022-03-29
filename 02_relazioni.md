@@ -161,12 +161,12 @@ Essere perpendicolare a, essere parallelo a
 
 ### Numero di relazioni su un set
 
-Totale: $2^{n^2}$
-Riflessive:  $2^{n^{2}-n}$
-Antiriflessive:  $2^{n^{2}-n}$
-Antisimmetriche: $2^{\frac{n^2+n}{2}}$
-Simmetriche e antisimmetriche: $2^n$
-Transitive: _nessuna formula conosciuta_
+- Totale: $2^{n^2}$
+- Riflessive:  $2^{n^{2}-n}$
+- Antiriflessive:  $2^{n^{2}-n}$
+- Antisimmetriche: $2^{\frac{n^2+n}{2}}$
+- Simmetriche e antisimmetriche: $2^n$
+- Transitive: _nessuna formula conosciuta_
 
 ## Chiusure
 Poniamo che R sia una relazione binaria sull'insieme A. LA relazione R può godere o non godere di certe proprietà, come quella riflessiva, simmetrica o transitiva.
