@@ -37,7 +37,7 @@ Alcune fuzioni hanno specifiche proprietà - esistono però funzioni (come la fu
 - funzione lineare
 - funzione espotenziale $\R \to \R$
 - funzione quadrato $\N \to \N$ (ma non $\R \to \R$, che è suriettiva :) )
-
+- funzione successore (non suriettiva, perché lo zero non è mai mappato da nessun $\N \to \N$)
 
 ## Funzione suriettiva
 > **DEFINIZIONE**: 
