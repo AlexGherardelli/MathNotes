@@ -218,5 +218,9 @@ Sia $S \subseteq A \times B$. Si dice proiezione $S$ su $A$ l'insieme $\{a : a \
 > La proiezione di $S$ su entrambe le sue componenti è $S = \{ 0, 1, 2, 3\}$
 
 
-## Antinomie degli insiemi - Russel's Pararadox
-AGGIUNGERE
+## Antinomie degli insiemi - Il paradosso di Russell
+L'insieme di tutti gli insiemi che non appartengono a se stessi appartiene a se stesso se e solo se non appartiene a se stesso.
+
+Formalmente: $se R = {x : x \not \in x}, \ allora R \not R \iff R \in R$
+
+Una versione più semplice e "scherzosa" è il paradosso del barbiere: In un villaggio, un barbiere ben sbarbato fa la barba a tutti gli uomini del villaggio e nessun uomo rade se stesso. Dunque, chi rade il barbiere?
