@@ -1,6 +1,19 @@
 
 # Insiemi
 
+- [Insiemi](#insiemi)
+  - [Assioma di estensione e specificazione](#assioma-di-estensione-e-specificazione)
+  - [Operazioni su insiemi](#operazioni-su-insiemi)
+    - [Intersezione](#intersezione)
+    - [Unione](#unione)
+    - [Differenza](#differenza)
+    - [Complemento](#complemento)
+    - [Proprietà delle operazioni sugli insiemi](#proprietà-delle-operazioni-sugli-insiemi)
+  - [Power Set (Insieme potenza)](#power-set-insieme-potenza)
+  - [Prodotto cartesiano](#prodotto-cartesiano)
+  - [Antinomie degli insiemi - Il paradosso di Russell](#antinomie-degli-insiemi---il-paradosso-di-russell)
+
+
 ## Assioma di estensione e specificazione
 Insieme come collezione di oggetti, chiamati elementi, i quali sono associato ad esso tramite proprietà generali. Insiemi possono contenere qualunque cosa: si può parlare di insiemi di persone, di animali, di cose. Ovviamente, in matematica siamo interessati a insiemi di entità matematiche e delle loro proprietà. 
 

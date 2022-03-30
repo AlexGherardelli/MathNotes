@@ -1,5 +1,40 @@
 # Relazioni 
 
+- [Relazioni](#relazioni)
+  - [Relazione inversa $R^{-1}$](#relazione-inversa-r-1)
+  - [Relazioni $A \times A$ (tra un insieme e se stesso)](#relazioni-a-times-a-tra-un-insieme-e-se-stesso)
+    - [Proprietà riflessiva](#proprietà-riflessiva)
+    - [Proprietà antiriflessiva](#proprietà-antiriflessiva)
+    - [Proprietà simmetrica](#proprietà-simmetrica)
+    - [Proprietà antisimmetrica](#proprietà-antisimmetrica)
+    - [Proprietà transitiva](#proprietà-transitiva)
+    - [Casi speciali](#casi-speciali)
+  - [Proprietà vere per verità vacua](#proprietà-vere-per-verità-vacua)
+      - [Relazione riflessiva e antiriflessiva](#relazione-riflessiva-e-antiriflessiva)
+      - [Relazione simmetrica e antisimmetrica](#relazione-simmetrica-e-antisimmetrica)
+    - [Relazione nè simmetrica nè antisimmetrica**](#relazione-nè-simmetrica-nè-antisimmetrica)
+      - [Relazione asimmetrica ma non transitiva**](#relazione-asimmetrica-ma-non-transitiva)
+      - [Relazione simmetrica ma non riflessiva**](#relazione-simmetrica-ma-non-riflessiva)
+    - [Numero di relazioni su un set](#numero-di-relazioni-su-un-set)
+  - [Chiusure](#chiusure)
+    - [Chiusura riflessiva ( $r(S)\  o \ R^{+}_{r}$ )](#chiusura-riflessiva--rs--o--r_r-)
+    - [Chiusura simmetrica ( $s(S)\  o \ R^{+}_{s}$ )](#chiusura-simmetrica--ss--o--r_s-)
+    - [Chiusura transitiva ( $t(S)\  o \ R^{+}_{t}$ )](#chiusura-transitiva--ts--o--r_t-)
+- [Relazioni speciali](#relazioni-speciali)
+  - [Relazione di equivalenza](#relazione-di-equivalenza)
+    - [Classi di equivalenza](#classi-di-equivalenza)
+  - [Relazione di ordine parziale ($\leq$)](#relazione-di-ordine-parziale-leq)
+  - [Relazione di ordine stretto o totale ($<$)](#relazione-di-ordine-stretto-o-totale-)
+    - [Relazione inversa $R^{-1}$](#relazione-inversa-r-1-1)
+  - [Relazione di pre-ordine](#relazione-di-pre-ordine)
+    - [Partizione](#partizione)
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
 > **DEFINIZIONE**: **Relazione**
 > Una relazione tra due insiemi $A$ e $B$ è un sottoinsieme del prodotto cartesiano $A \times B$.
 >
@@ -17,7 +52,7 @@ Esempi di relazioni già incontrate sono:
 - relazione di apparteneza $\in_{u} = \{(a, A) \in A \times \wp(U): a \in A$
 - relazione di sottoinsieme
 
-### Relazione inversa $R^{-1}$
+## Relazione inversa $R^{-1}$
 Dato $R \subseteq A \times B$, possiamo considerare come *nuova* relazione, indicata con $R^{-1}$ la relazione tra gli insiemi $B$ e $A$, cioè $R^{-1} \subseteq B \times A$, ottenuta invertendo l'ordine di tutte le coppie di R. 
 
 Ciò è denominata una **relazione inversa**.

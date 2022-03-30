@@ -1,4 +1,15 @@
 # Funzioni
+- [Funzioni](#funzioni)
+- [Proprietà delle funzioni](#proprietà-delle-funzioni)
+  - [Funzione inettiva](#funzione-inettiva)
+  - [Funzione suriettiva](#funzione-suriettiva)
+  - [Funzione biiettiva (o biunivoca)](#funzione-biiettiva-o-biunivoca)
+- [Composizione e inversione delle funzioni](#composizione-e-inversione-delle-funzioni)
+  - [Funzione composta](#funzione-composta)
+  - [Funzione parziale](#funzione-parziale)
+  - [Funzione identità](#funzione-identità)
+  - [Funzione inversa](#funzione-inversa)
+
 Una funzione può essere vista come qualcosa che "invia" elementi da un set $A$ a un set $B$ - quindi può essere vista come una relazione speciale tra insiemi. s
 
 > **DEFINIZIONE**: 

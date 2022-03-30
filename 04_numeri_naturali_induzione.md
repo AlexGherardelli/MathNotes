@@ -1,4 +1,10 @@
-# Numeri Naturali
+# Numeri Naturali e Induzione
+- [Numeri Naturali e Induzione](#numeri-naturali-e-induzione)
+  - [Assiomi di Peano](#assiomi-di-peano)
+- [Induzione](#induzione)
+  - [Induzione non per $P(0)$](#induzione-non-per-p0)
+  - [Induzione completa](#induzione-completa)
+
 A differenza di quanto accaduto in geometria, i matematici antichi non h si posero il problema di caratterizzare i numeri naturali. La prima caratterizzazione è di Campano da Novara nella seconda metà del XIII secolo. 
 
 Il discorso viene ripreso nella fine del 1800, quando l'intero mondo matematico si sta dedicando a una formalizzazione rigorosa della disciplina. 
