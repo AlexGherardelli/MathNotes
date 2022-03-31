@@ -4,8 +4,12 @@
   - [Algebra di Boole](#algebra-di-boole)
     - [Convulazione](#convulazione)
     - [Leggi di De Morgan](#leggi-di-de-morgan)
+  - [Omomorfismo](#omomorfismo)
+  - [Teorema di Stone](#teorema-di-stone)
 
->**DEFINIZIONE*: Struttura algebrica
+<br>
+
+>**DEFINIZIONE**: Struttura algebrica
 > Una struttura algebrica è un insieme dotato di operatori che soddisfano determinate proprieta o assiomi. Esempi di strutture algebriche sono i reticoli, i monoidi, i gruppi, gli anelli, e i campi.
 
 Un **semireticolo** è un insieme parzialmente ordinato (POSET) che gode dell'operazione binaria di JOIN ($\lor$) per ogni insieme finito non-vuoto.
@@ -18,12 +22,12 @@ Consider the poset we examined in . It isn't too surprising that every pair of s
 
 Un reticolo gode delle proprietà commutativa, associativa, e identità e soddisfano la legge dell'assorbimento. Un **reticolo distributivo** è un reticolo dove ogni elemento è verificato dalla proprietà distributiva.
 
-Con JOIN intendiamo "il superiore tra"
-Con MEET intendiamo "l'inferiore tra"
+    Con JOIN intendiamo "il superiore tra"
+    Con MEET intendiamo "l'inferiore tra"
 
 Una rappresentazione alternativa è al JOIN e MEET, è considerare un insieme parzialmente ordinato $L = (A, \leq) \quad \quad \forall a, b \in A: \exist \ sup\{a, b\} \land  inf\{a, b\}$
 
-(Lattice - Wolfram Alpha)[https://mathworld.wolfram.com/Lattice.html]
+[Lattice - Wolfram Alpha](https://mathworld.wolfram.com/Lattice.html)
 
 ## Algebra di Boole
 >**DEFINIZIONE**
@@ -58,6 +62,11 @@ $$
 a \lor a = a
 \\
 a \land a = a
+\\
+a \lor \bot = a
+\\ 
+a \land \top = a
+
 $$
 
 **Distributività**
@@ -74,7 +83,7 @@ a \lor \lnot a = \top
 a \land \lnot a = \bot
 $$
 
- Si può considerare come una generalizzazione delle algebre dei sottoinsiemi potenza (e.g. insiemi potenza $\wp \N$)
+ Si può considerare come una generalizzazione delle algebre dei sottoinsiemi potenza (e.g. insiemi potenza $\wp (\N$)
 
 Infatti dato un insieme A:
 
@@ -97,14 +106,21 @@ $lnot(A \land B) = (\lnot A) \lor (\lnot B)$
 
 The rules can be expressed in English as:
 
-    The negation of a disjunction is the conjunction of the negations
-    The negation of a conjunction is the disjunction of the negations
+The negation of a disjunction is the conjunction of the negations
+The negation of a conjunction is the disjunction of the negations
 
 or
 
-    The complement of the union of two sets is the same as the intersection of their complements
-    The complement of the intersection of two sets is the same as the union of their complements
+The complement of the union of two sets is the same as the intersection of their complements
+The complement of the intersection of two sets is the same as the union of their complements
 
 
-        not (A or B) = (not A) and (not B)
-    not (A and B) = (not A) or (not B),
+not (A or B) = (not A) and (not B) 
+not (A and B) = (not A) or (not B)
+
+## Omomorfismo
+
+## Teorema di Stone
+
+
+
