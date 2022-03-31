@@ -99,28 +99,49 @@ Questa struttura algebrica inoltre ben rappresenta le proprietà essenziali sia 
 $\overline{\overline{A}} = \overline{A}$ sono uguali perchàe entrambe indicano "complemento di A"
 
 ### Leggi di De Morgan
-Metodo per passare da OR a AND:
+Le leggi di De Morgan permettono l'espressione di congiunzioni e disgunzioni puramente in termini di se stesse attraverso l'uso della negazione: 
 
 $\lnot (A \lor B) = (\lnot A) \land (\lnot B)$
 $lnot(A \land B) = (\lnot A) \lor (\lnot B)$
 
-The rules can be expressed in English as:
+Le leggi di De Morgan possono essere espresse in italiano come:
 
-The negation of a disjunction is the conjunction of the negations
-The negation of a conjunction is the disjunction of the negations
+- La negazione di una disgiunzione è la congiunzione delle negate
+- La negazione di una congiunzione è la disgiunzione delle negate
 
-or
+ovvero:
+- Il complemento dell'unione di due insieme è uguale all'intersezione dei suoi complement
+- Il complemento dell'intersezione di due insiemi è insieme all'unione dei suoi complement
 
-The complement of the union of two sets is the same as the intersection of their complements
-The complement of the intersection of two sets is the same as the union of their complements
 
-
-not (A or B) = (not A) and (not B) 
-not (A and B) = (not A) or (not B)
+![Diagramma di De Morgan](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Demorganlaws.svg/800px-Demorganlaws.svg.png)
 
 ## Omomorfismo
+> **DEFINIZIONE**
+> 
+> Una funzione si dice **omomorfismo** e rispetta le tre operazioni dell'algebra
+> $$
+  f(a \lor b) = f(a) \lor f(b)
+\\
+f(a \land b) = f(a) \land fb
+\\
+f(\bot) = \bot 
+\\ 
+f(\top) = \top
+> $$
+
+Avendo verificate queste, di conseguenza sarà anche verificata
+$$
+f(\lnot a) = \lnot f(a)
+$$
 
 ## Teorema di Stone
 
+Per ogni algebra di Boole., esisterà sempe un'algebra tale che sia un sottoinsieme. 
 
+Per trovarlla, a partire da una qualsiasi algebra bisogna:
+1. Considerare tutti gli omomorfismi possibli dall'algebra iniziare a quella più semplice
+2. l'insieme da trovare sarà composto da $n$ elementi, quanti saranno gli omomorfismi trovati nel passo
+
+[Stone's representation theorem for Boolean algebras](https://en.wikipedia.org/wiki/Stone%27s_representation_theorem_for_Boolean_algebras)
 
