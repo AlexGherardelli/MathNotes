@@ -18,6 +18,8 @@ Se $\lnot P$, allora $Q$ o $R$ -> $Q \lor R$ -> $Q \cup R$
 
 Se $P$, allora $Q$ e $R$ -> $Q \land R$ -> $Q \cap R$ 
 
+
+
 ## Corrispondenze
 
 | Logica             | Insiemi                  | Algebre di BOole       |
@@ -29,6 +31,8 @@ Se $P$, allora $Q$ e $R$ -> $Q \land R$ -> $Q \cap R$
 | not $\lnot$        | complemento  $\bar{ }$       | complemento $\bar{ }$     |
 | soddisfa $\models$ | sottoinsieme $\subseteq$ | minore o uguale $\leq$ |
 
+- La logica non è altro che funzioni che mappano i predicati in top e bottom (connessione tra Logica e Algebre di Boole)
+- Gli elementi di un insieme che corrispondon agli omomorfismo corrispondo anche a  delle funzionei che mappano i predicati logici in $\top$ e $\bot$.
 
 ## Tavole di verità delle proposizioni
 | $P$    | $Q$    | $P \land Q$ | $P \lor Q$ | $\lnot P$ |
@@ -67,12 +71,10 @@ Nel mondo della logica la proposizione $A \implies B$ contienie il minimo d'info
 - se è vero che $A \implies B$, allora $A$ è vera
 
 
-
-
 ## Algebra di Heyting
-L'algebra di Heyting è un reticolo distributivo dove 
+L'algebra di Heyting è un reticolo distributivo dove per ogni copppia di $A$ e $B$ esiste lo pseudocomplemento di A rispetto a B: $A \implies B$, ovvero il più grande elemento x tale che $x \land A \leq B$
 $$
 \forall A, B \exists A \implies B
 $$
 
-Per ogni coppia di elementi A, B esiste lo pseudocomplemento di A rispetto a B, $A \implies B$
+Ogni algebra di Boole è anche un'algebra di Heyting, ma non è vero il contrario.

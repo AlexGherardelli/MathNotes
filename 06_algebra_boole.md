@@ -118,8 +118,9 @@ ovvero:
 
 ## Omomorfismo
 > **DEFINIZIONE**
+> Un omomorfismo è un'applicazione tra due strutture algebriche dello stesso tipo che conserva le operazioni in esse definite
+> UN omomorfismo tra due algebree Boolean $A$ e $B$ è una funzione $f: A \to B$ tale che per ogni a, b in valgano le seguenti proprietà:
 > 
-> Una funzione si dice **omomorfismo** e rispetta le tre operazioni dell'algebra
 > $$
   f(a \lor b) = f(a) \lor f(b)
 \\
@@ -135,6 +136,7 @@ $$
 f(\lnot a) = \lnot f(a)
 $$
 
+ 
 ## Teorema di Stone
 
 Per ogni algebra di Boole., esisterà sempe un'algebra tale che sia un sottoinsieme. 
