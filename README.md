@@ -12,10 +12,6 @@ The notes are written in Markdown with math expressions written in LaTex. Unfort
 
 
 **Italiano**
-Questi appunti sono scritti in Markdown, con le espressioni matematiche in LaTex. Purtroppo GitHub non supporta la notazione LaTex nativamente, dunque il modo più semplice per usufruire di questi appunti è scaricarli e vederli con un editor di testo che supporta sia il markdown che LaTex, come VS Code.
-
-
-
 
 ## Sources
 **English**
