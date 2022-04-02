@@ -33,7 +33,9 @@ Una rappresentazione alternativa è al JOIN e MEET, è considerare un insieme pa
 >**DEFINIZIONE**
 > 
 > Un'algebra di Boole è un reticolo distributivo dove ogni elemento ha un complemento.
-> 
+
+Preso l'insieme potenza di un qualunque insieme A (dunque l'insieme delle parti di A), ordinato da una relazione di ordine parziale $\leq$, è un'algebra di Boole.
+
 E' quindi una struttura costituita da una sestupla: un insieme $A$, dotato di operazioni due operazioni binarie $\land$ MEET e $\lor$ JOIN, un'operazione unaria complemento $\lnot$ e due elementi 0 e 1 in A, denominati $\top$ top e $\bot$ bottom, tale che $\forall a, b, c \in A$ , valgano i seguenti assiomi:
 
 **Associatività**
