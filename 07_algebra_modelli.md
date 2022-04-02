@@ -3,8 +3,9 @@
   - [Connettivi logici](#connettivi-logici)
   - [Corrispondenze](#corrispondenze)
   - [Tavole di verità delle proposizioni](#tavole-di-verità-delle-proposizioni)
-  - [Conseguenza semantica](#conseguenza-semantica)
-- [Implicazione **SONO QUI**](#implicazione-sono-qui)
+  - [Modelli](#modelli)
+    - [Conseguenza semantica](#conseguenza-semantica)
+- [Parte 2: l'implicazione](#parte-2-limplicazione)
   - [Tabelle di verità dell'implicazione](#tabelle-di-verità-dellimplicazione)
   - [Algebra di Heyting](#algebra-di-heyting)
 
@@ -32,57 +33,103 @@ Se $P$, allora $Q$ e $R$ -> $Q \land R$ -> $Q \cap R$
 | and $\land$        | intersezione $\cap$      | meet $\land$           |
 | or $\lor$          | unione $\cup$            | join $\lor$            |
 | not $\lnot$        | complemento  $\bar{ }$       | complemento $\bar{ }$     |
-| soddisfa $\models$ | sottoinsieme $\subseteq$ | minore o uguale $\leq$ |
+| modello $\models$ | sottoinsieme $\subseteq$ | minore o uguale $\leq$ |
 
 - La logica non è altro che funzioni che mappano i predicati in top e bottom (connessione tra Logica e Algebre di Boole)
 - Gli elementi di un insieme che corrispondon agli omomorfismo corrispondo anche a  delle funzionei che mappano i predicati logici in $\top$ e $\bot$.
 
 ## Tavole di verità delle proposizioni
+
 | $P$    | $Q$    | $P \land Q$ | $P \lor Q$ | $\lnot P$ |
 |--------|--------|-------------|------------|-----------|
-| $\top$ | $\top$ | $\top$      | $\top$     | $\top$    |
-| $\top$ | $\bot$  | $\bot$      | $\top$     | $\bot$    |
-| $\bot$ | $\top$ | $\bot$      | $\top$     | $\top$    |
-| $\bot$ | $\bot$ | $\bot$      | $\bot$     | $\top$    |
+| True | True | True     | True   | True    |
+| True | False  |False      | True     | False    |
+| False | True | False      | True    | True   |
+| False| False | False     | False    | True    |
 
-    RIVEDERE DEFINIZIONE
+## Modelli
+I modelli corrispondono agli elementi del mondo degli insiemi, e sono funzioni che assegnano un valore di verità a delle proposizioni.
 
-> **DEFINIZIONE** modelli m: 
-> simboli proposizionali $\{T, F\}$
-> Funzioni che associano preposizion a un'elemento ell'insieme $\{T, F\}$ (che corrispondono a $\top$ e $\bot$ dell'algebra di Boole)
+> **DEFINIZIONE** modelli m:
+> Funzioni che associano una preposizione a un'elemento dell'insieme $\{T, F\}$ (che corrispondono a $\top$ e $\bot$ dell'algebra di Boole)
 
+$~~~~~~~~~~~$
 
-m si estende alle proposizioni (interpretazioni come segue:
-m(falso) = F
-e per le proposizioni composete  comn le tavole di verità
+**Esempio**:
+- $P$ = essere un numero primo
+- $Q$ = essere minore di 10
 
-Combinando le proposizioni con i connettivi logici otteniamo la *logica proposizionale*.
+Nel mondo degli insiemi, si può vedere $P$ e $Q$ come due sottoinsiemi di \$N$, e i numeri primi minori di 10 come $P \cap Q$.
 
-## Conseguenza semantica
-La conseguenza semantica ($\models$) è un'operazione che corrisponde al $\leq$ delle algebre di Boole (o al $\subseteq$ degli insiemi).
+Se ne deduce che
+$$
+P \cap Q \subseteq P
+$$
+e che per ogni numero $n$, se $n \in P \cap Q$, allora $n \in P$.
+
+In logica, possiamo scrivere una cosa completamente identica indicando che **per ogni modello m, se m soddisfa $P \land Q$, allora m soddisfa P:
 
 $$
-P \land Q \models P \quad \} \quad A_{1}, A_{2}, \dots, |A_{n} \models B
+P \land Q \models P
 $$
+
+Il numero 9 è un numero inferiore a 10 ($9 \in Q$), ma non è un numero primo ($9 \notin P$).
+
+Prendendolo come modello, si può dire che $m(Q) = T$ e $m(P) = F$, oppure $\models_{m}Q$, che si legge *m soddisfa Q*.
+
+### Conseguenza semantica
+Il modello ($\models$) viene chiamato anche **conseguenza semantica**, che è un'operazione che corrisponde al $\leq$ delle algebre di Boole (o al $\subseteq$ degli insiemi).
 
 | Insiemi                                  | Algebra di Boole                    | Logica                                 |
 |------------------------------------------|-------------------------------------|----------------------------------------|
 | $\subseteq$                              | $\leq$                              | $\models$                              |
 | $A_{1}, A_{2}, \dots, A_{n} \subseteq A$ | $A_{1}, A_{2}, \dots, A_{n} \leq A$ | $A_{1}, A_{2}, \dots, A_{n} \models A$ |
 
-# Implicazione **SONO QUI**
+$~~~~~~~~~~~$
+
+> La notazione può essere estesa da un esempio come $P \land Q \models P$, alla sua generalizzazione, usando $A_{1}, A_{2}, \dots, |A_{n}$ per indicare una serie di formule:
+> 
+> $$
+>A_{1}, A_{2}, \dots, |A_{n} \models B
+>$$
+>
+> Per ogni modello m, se m soddisfa $A_{1}, A_{2}, \dots, |A_{n}$, allora m soddisfa B
+> 
+> Oppure, B consegue semanticamente da $A_{1}, A_{2}, \dots, |A_{n}$
+
+**Quando $n=0$, ciò significa che non c'è premessa, quindi per ogni modello m, m soddisfa $B$**
+$$
+\models B
+$$
+
+Quindi B è **valida** - B è una tautologia.
+
+$~~~~~~~~~~~$
+
+# Parte 2: l'implicazione
+
 $A \implies B$ è la più debole (cioè l'insieme di modelli più grande) proposizione x tale che $x, A \models B$
 
 - Implicazione come promessa 
-- Implicazione come A not B qualcosa
+
+> **NOTA BENE**
+> 
+> A implica B è semanticamente equivalmente a not A or B
+> 
+> $A \implies B = \lnot A \lor B$
+
 
 ## Tabelle di verità dell'implicazione
 Nel mondo della logica la proposizione $A \implies B$ contienie il minimo d'informazione possibile ovvero che:
 - se è vero che $A \implies B$, allora $A$ è vera
 
+| $A$ 	| $B$ 	| $A \implies B$ 	|
+|---	|---	|---	|
+| True 	| True 	| True 	|
+| True 	| False 	| False 	|
+| False 	| True 	| True 	|
+| False 	| False 	| True 	|
 
-
-    RIVEDERE
 
 ## Algebra di Heyting
 L'algebra di Heyting è un reticolo distributivo dove per ogni copppia di $A$ e $B$ esiste lo pseudocomplemento di A rispetto a B: $A \implies B$, ovvero il più grande elemento x tale che $x \land A \leq B$
