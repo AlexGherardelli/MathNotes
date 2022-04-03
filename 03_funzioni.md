@@ -10,7 +10,7 @@
   - [Funzione identità](#funzione-identità)
   - [Funzione inversa](#funzione-inversa)
 
-Una funzione può essere vista come qualcosa che "invia" elementi da un set $A$ a un set $B$ - quindi può essere vista come una relazione speciale tra insiemi. s
+Una funzione può essere vista come qualcosa che "invia" elementi da un set $A$ a un set $B$ - quindi può essere vista come una relazione speciale tra insiemi.
 
 > **DEFINIZIONE**: 
 > Una funzione $f$ da un insieme $D$ (dominio) ad un insieme $C$ (codominio) ($f : D \to C$)

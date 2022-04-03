@@ -1,7 +1,6 @@
 # Cardinalità
 - [Cardinalità](#cardinalità)
   - [Numeri transfiniti](#numeri-transfiniti)
-    - [Esempio: Gli alberghi transfiniti](#esempio-gli-alberghi-transfiniti)
   - [Cardinalità](#cardinalità-1)
     - [Cantor-Schröder-Bernstein](#cantor-schröder-bernstein)
     - [Definizione infinito (Dodekin, 1888)](#definizione-infinito-dodekin-1888)
@@ -20,20 +19,19 @@ Nei numeri transfiniti il concetto di numeri ordinali (uno, due, tre...) e cardi
 
 Il più piccolo numero ordinale transfinito è $\omega$, un insieme contenente tutti i numeri. Dato $\omega$ construiamo un nuovo insieme $\omega + 1$, che contiene, come $\omega$, più uno, dimostrando quindi che i numeri transfiniti sono, beh, infiniti. Con lo stesso principio possiamo continuare e avere $\omega + \omega, \omega + \omega + \omega, \dots$.
 
-Il più piccolo numero cardinale transfinito è $\aleph_{0}$, che corrisponde alla potenza del numerabile (cardinalità di $\N$ o $\mathbb{Q}$). Il numero successivo è $2^{\aleph_{0}} = \aleph_{1}$, corrispondente alla potenza del continuo (cardinalità di $\R$ e $\wp(N)$).
+> ### Esempio: Gli alberghi transfiniti
+> Esperimento mentale introdotto da David Hilbert in una lezione del 1924 e volto a dimostrare le proprietà controintuitive degli insiemi infiniti.
 
-### Esempio: Gli alberghi transfiniti
-Esperimento mentale introdotto da David Hilbert in una lezione del 1924 e volto a dimostrare le proprietà controintuitive degli insiemi infiniti.
+> *Vedi video*: [The Infinite Hotel Parodox](https://www.youtube.com/watch?v=Uj3_KqkI9Zo)
 
-*Vedi video*: [The Infinite Hotel Parodox](https://www.youtube.com/watch?v=Uj3_KqkI9Zo)
+Il più piccolo numero cardinale transfinito è $\aleph_{0}$, che corrisponde alla potenza del numerabile (cardinalità di $\N$ o $\mathbb{Q}$). Il numero successivo è $2^{\aleph_{0}} = \aleph_{1}$, corrispondente alla potenza del continuo (cardinalità di $\R$ e $\wp(\N)$).
 
 ## Cardinalità
 
 > **DEFINIZIONE**
+> Due insiemi si dicono equipotenti se esiste una funzione biiettiva $f: A \to B$ (quindi una **corrispondenza biunivoca**)
+> L'equipotenza è una relazione di equivalenza (riflessiva, simmetrica, transitiva). 
 > La cardinalità di un insieme $A$, indicata come $|A|$, è la classe di equipotenza di $A$. 
-
-1. L'equipotenza è una relazione di equivalenza (riflessiva, simmetrica, transitiva). 
-2. Due insiemi si dicono equipotenti se esiste una funzione biiettiva $f: A \to B$ (quindi una **corrispondenza biunivoca**)
 
 
 ### Cantor-Schröder-Bernstein
@@ -46,7 +44,7 @@ Ne consegue che:
 Per questo principio si può dedurre anche che possiamo anche ricavare che $\omega$ è equipotente a $\omega + 1$
 
 ### Definizione infinito (Dodekin, 1888)
-Un insieme si dice **infinto** se è equipotente ad una sua parte propria; in caso opposto si dice infinito.
+Un insieme si dice **infinto** se è equipotente ad una sua parte propria; in caso opposto si dice finito.
 
 ### Esempio: Polvere di Cantor
 L'insieme di Cantor è uno specifico sottoinsieme dei numeri reali nell'intervallo $[0, 1]$. Questo insieme è famoso per avere proprietà che sembrano quasi contradditorie o paradossali. 
@@ -66,9 +64,6 @@ Al primo passo $C_{1}$ rimuoviamo da $[0, 1]$ il sotto intervallo $(\frac{1}{3},
 Al secondo passo $C_{2}$ rimuoviamo un segmento aperto centrale in entrambi questi intervalli (avente lunghezza un terzo della lunghezza del segmento, come al primo passo), e otteniamo quattro intervalli ancora più piccoli. 
 
 L'insieme di Cantor consiste di tutti i punti dell'intervallo di partenza $[0, 1]$ che non vengono mai rimossi da questo procedimento ricorsivo: in altre parole, l'insieme che rimane dopo aver iterato questo procedimento infinite volte. 
-
-In maniera, formale:
-($C$): $C_{0} \cup C_{1} \cup \dots \cup C_{\infty}$
 
 
 ![Insieme di Cantor](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Cantor_set_in_seven_iterations.svg/729px-Cantor_set_in_seven_iterations.svg.png)
