@@ -1,7 +1,7 @@
 # Funzioni
 - [Funzioni](#funzioni)
 - [Proprietà delle funzioni](#proprietà-delle-funzioni)
-  - [Funzione inettiva](#funzione-inettiva)
+  - [Funzione iniettiva](#funzione-iniettiva)
   - [Funzione suriettiva](#funzione-suriettiva)
   - [Funzione biiettiva (o biunivoca)](#funzione-biiettiva-o-biunivoca)
 - [Composizione e inversione delle funzioni](#composizione-e-inversione-delle-funzioni)
@@ -14,7 +14,7 @@ Una funzione può essere vista come qualcosa che "invia" elementi da un set $A$ 
 
 > **DEFINIZIONE**: 
 > Una funzione $f$ da un insieme $D$ (dominio) ad un insieme $C$ (codominio) ($f : D \to C$)
-> è una relazione $R \subseteq D \times C$ tale che per ogni elemento $a \in D$, esiste uno e un solo $b \in D$ tale che $a \mathrel{R} C$
+> è una relazione $R \subseteq D \times C$ tale che per ogni elemento $a \in D$, esiste uno e un solo $b \in D$ tale che $a \mathrel{R} b$
 > quindi:
 >>  1. ogni elemento di D ha un corrispondente in C
 >> 2. nessun elemento di D ha più di un corrispondente in C 
@@ -34,11 +34,11 @@ Non ci possono essere però elementi del dominio associati a più elementi del c
 ![](assets/immagine.jpg)
 
 # Proprietà delle funzioni
-Alcune fuzioni hanno specifiche proprietà - esistono però funzioni (come la funzione costante) che non godono di nessuna di queste proprietà.
+Alcune fuzioni hanno specifiche proprietà - esistono però funzioni che non godono di nessuna di queste proprietà (e.g. funzione costante).
 
-## Funzione inettiva
+## Funzione iniettiva
 > **DEFINIZIONE**: 
-> Una funzione si die ineittiva se per ogni coppia di elementi del dominio corrisponde una coppia di elmeenti del codominio
+> Una funzione si dice iniettiva se per ogni coppia di elementi del dominio corrisponde una coppia di elementi del codominio
 > ovvero data $f: A \to B$
 >>  $\quad\forall a, a' \in A: ( f(a) = f(a') )\implies a = a'$
 
@@ -46,9 +46,9 @@ Alcune fuzioni hanno specifiche proprietà - esistono però funzioni (come la fu
 
 **Esempi**
 - funzione lineare
+- funzione successore (non suriettiva, perché lo zero non è mai mappato da nessun $\N \to \N$)
 - funzione espotenziale $\R \to \R$
 - funzione quadrato $\N \to \N$ (ma non $\R \to \R$, che è suriettiva :) )
-- funzione successore (non suriettiva, perché lo zero non è mai mappato da nessun $\N \to \N$)
 
 ## Funzione suriettiva
 > **DEFINIZIONE**: 
@@ -75,7 +75,9 @@ Una funzione biiettiva si dice anche biuniovoca (one-to one): in una funzione bi
 
 
 **Esempi**
-
+- funzione identità
+- funzione successore tra gli interi $\I to \I$
+- funzione lineare $\I to \I$
 
 
 # Composizione e inversione delle funzioni
@@ -93,7 +95,7 @@ La composizione gode di proprietà associativa ma non commutativa, dunque $S \ci
 > 
 > Una funzione parziale si verifica quando quest'ultima viene definita da un sottoinsieme di $\R$ detto dominio di definizione (D), e aventi immagini reali.
 
-Nel caso di composizioni tra funzioni bisogna prestare una certa attenzione all'applicazione della definizione di composizione di funzioni, in quanto, date due funzioni parziali $f: A \to B$ e $g: B \to C, il dominio di definizione $f \circ g$ potrebbe essere più piccolo dell'originale dominio di definizione di $f$.
+Nel caso di composizioni tra funzioni bisogna prestare una certa attenzione all'applicazione della definizione di composizione di funzioni, in quanto, date due funzioni parziali $f: A \to B$ e $g: B \to C$, il dominio di definizione $f \circ g$ potrebbe essere più piccolo dell'originale dominio di definizione di $f$.
 
 ## Funzione identità 
 La funzione identità si verifica quando abbiamo una relazione $A \times A$ con $a \in A$, cioè $i_{a} = \{ (a, a): a \in A \}$. La funzione identità è biiettiva.
@@ -102,6 +104,6 @@ La funzione identità si verifica quando abbiamo una relazione $A \times A$ con 
 ## Funzione inversa
 Una funzione è invertibile se e solo se è biiettiva. Infatti, invertendo una funzione non-iniettiva o non-suriettiva si ottiene una relazione che non è una funzione. 
 
-Combinando $f: A \to B$ con la sua invera $f^{-1}: B \to A$ si ottengono due funzioni di identità $f \circ f^{-1}(a) = a$ e $f \circ f^{-1}(b) = b$.
+Combinando $f: A \to B$ con la sua inversa $f^{-1}: B \to A$ si ottengono due funzioni di identità $f \circ f^{-1}(a) = a$ e $f \circ f^{-1}(b) = b$.
 
 Per ogni funzione biiettiva c'è un'unica funzione inversa $f^{-1}$

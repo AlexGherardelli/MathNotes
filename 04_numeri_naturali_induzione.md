@@ -5,20 +5,20 @@
   - [Induzione non per $P(0)$](#induzione-non-per-p0)
   - [Induzione completa](#induzione-completa)
 
-A differenza di quanto accaduto in geometria, i matematici antichi non h si posero il problema di caratterizzare i numeri naturali. La prima caratterizzazione è di Campano da Novara nella seconda metà del XIII secolo. 
+A differenza di quanto accaduto in geometria, i matematici antichi non si posero il problema di caratterizzare i numeri naturali. La prima caratterizzazione è di Campano da Novara nella seconda metà del XIII secolo. 
 
 Il discorso viene ripreso nella fine del 1800, quando l'intero mondo matematico si sta dedicando a una formalizzazione rigorosa della disciplina. 
 
 Gotlib Frege pubblica nel 1884 la sua opera magna, che contiene la sua rigorosa definizione dei numeri naturali, definiti ricorsivamente a partire dallo zero.
 
-Giuseppe Peano nel 1891 propone una versione assiomatica basata su tre concetti primitivi:**lo zero, il numero e il successivo**.
+Giuseppe Peano nel 1891 propone una versione assiomatica basata su tre concetti primitivi: **lo zero, il numero e il successivo**.
 
 ## Assiomi di Peano
 1. Lo zero è un numero ($0 \in \N$)
 2. Esiste una funzione $S: \N \to \N$ chiamata *successore*
-3. Lo zero non è successore di nessuno
-4. Se $a, b \in \N$ e $S(a) = S(b)$, allora $a = b$
-5. se $a \in \N$, allora $S(a) \not = 0$
+3. Se $a, b \in \N$ e $S(a) = S(b)$, allora $a = b$
+4. Lo zero non è successore di nessuno: se $a \in \N$, allora $S(a) \not = 0$
+5. Ogni sottoinsieme di numeri naturali che contenga lo zero e il successore di ogni proprio elemento coincide con l'intero insieme dei numeri naturali: se $A \subseteq \N$ è tale che $0 \in A$ e inoltre $n \in A \implies S(n) \in \N$, allora $A = \N$  (assioma dell'induzione)
 
 # Induzione
 Il principio di induzione è una tecnica di dimostrazione che consente di dimostrare la validità di una tesi dalla verifica di due condizioni: la validità del *passo zero* e la validità del *passo induttivo*. [Principio di Induzione - YouMath](https://www.youmath.it/lezioni/analisi-matematica/successioni/701-dimostrazioni-con-il-principio-di-induzione.html)
