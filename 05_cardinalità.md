@@ -11,6 +11,8 @@
   - [Ipotesi del continuo](#ipotesi-del-continuo)
   - [Funzioni non calcolabili](#funzioni-non-calcolabili)
 
+Il discorso sulla cardinalità nasce dall'esigenza di dimostrare la grandezza dei numeri transfiniti.
+
 ## Numeri transfiniti
 I numeri transfiniti sono numeri "infiniti", nel senso che sono più grandi di qualsiasi numero finito, ma non necessariamente infiniti in manier assoluta.
 
@@ -26,7 +28,6 @@ Esperimento mentale introdotto da David Hilbert in una lezione del 1924 e volto 
 *Vedi video*: [The Infinite Hotel Parodox](https://www.youtube.com/watch?v=Uj3_KqkI9Zo)
 
 ## Cardinalità
-Il discorso sulla cardinalità nasce dall'esigenza di dimostrare la grandezza dei numeri transfiniti.
 
 > **DEFINIZIONE**
 > La cardinalità di un insieme $A$, indicata come $|A|$, è la classe di equipotenza di $A$. 
@@ -126,3 +127,4 @@ Se ci sono $\omega$ macchine $< 2^{\omega}$ funzioni. Dato che esitono più funz
 - [Post Correspondence Problem](https://en.wikipedia.org/wiki/Post_correspondence_problem)
 - [Halting problem](https://en.wikipedia.org/wiki/Halting_problem)
 
+*Lettura aggiuntiva* [Turing Equivalenza](https://it.wikipedia.org/wiki/Turing_equivalenza)

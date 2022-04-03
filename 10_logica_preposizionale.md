@@ -7,7 +7,6 @@
   - [Ambiente](#ambiente)
   - [Tableau predicativi](#tableau-predicativi)
 
-
 ## Sillogismo
 
 ## Sintassi

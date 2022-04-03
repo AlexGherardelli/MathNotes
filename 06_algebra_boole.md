@@ -126,7 +126,7 @@ ovvero:
 > $$
   f(a \lor b) = f(a) \lor f(b)
 \\
-f(a \land b) = f(a) \land fb
+f(a \land b) = f(a) \land f(b)
 \\
 f(\bot) = \bot 
 \\ 
@@ -137,6 +137,8 @@ Avendo verificate queste, di conseguenza sarà anche verificata
 $$
 f(\lnot a) = \lnot f(a)
 $$
+
+Isomomorfismo è un'omomorfismo è biiettiva.
 
  
 ## Teorema di Stone
