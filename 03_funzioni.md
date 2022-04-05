@@ -46,22 +46,22 @@ Alcune fuzioni hanno specifiche proprietà - esistono però funzioni che non god
 
 **Esempi**
 - funzione lineare
-- funzione successore (non suriettiva, perché lo zero non è mai mappato da nessun $\N \to \N$)
-- funzione espotenziale $\R \to \R$
-- funzione quadrato $\N \to \N$ (ma non $\R \to \R$, che è suriettiva :) )
+- funzione successore (non suriettiva, perché lo zero non è mai mappato da nessun $\mathbb{N} \to mathbb{N$)
+- funzione espotenziale $\mathbb{R} \to \mathbb{R}$
+- funzione quadrato $\mathbb{N} \to mathbb{N$ (ma non $\mathbb{R} \to \mathbb{R}$, che è suriettiva :) )
 
 ## Funzione suriettiva
 > **DEFINIZIONE**: 
 > Una funzione si dice suriettiva, se ogni elemento del codominio ha corrisposta almeno una controimmagine nel dominio
 > ovvero data $f: A \to B,$
->>$\forall b \in B: \exist a \in A \implies f(a) = b$
+>>$\forall b \in B: \exists \ a \in A \implies f(a) = b$
 
 ![Esempio funzione iniettiva](assets/suriettiva.jpg)
 
 
 **Esempi**
-- la funzione quadrato $\R \to \R$
-- la funzione cubo $\R \to \R$
+- la funzione quadrato $\mathbb{R} \to \mathbb{R}$
+- la funzione cubo $\mathbb{R} \to \mathbb{R}$
 - funzioni periodiche come seno, coseno
 
 
@@ -76,8 +76,8 @@ Una funzione biiettiva si dice anche biuniovoca (one-to one): in una funzione bi
 
 **Esempi**
 - funzione identità
-- funzione successore tra gli interi $\I to \I$
-- funzione lineare $\I to \I$
+- funzione successore tra gli interi $\mathbb{I} \to \mathbb{I}$
+- funzione lineare $\mathbb{I} \to \mathbb{I}$
 
 
 # Composizione e inversione delle funzioni
@@ -86,14 +86,17 @@ Una funzione biiettiva si dice anche biuniovoca (one-to one): in una funzione bi
 > 
 > Date le funzioni $f: A \to B$ e $g: B \to C$, si dice funzione composta la funzione $g \circ f$ che ad ogni elemento $a \in A$ fa corrispondere l'elemento $g(f(a)) \in C$ 
 > ovvero:
->> $S \circ R = \{ (a, c) | \exist b \in B: a \mathrel{R} b \land \ b \mathrel{S} c\}$
+>> $S \circ R = \{ (a, c) | \exists b \in B: a \mathrel{R} b \land \ b \mathrel{S} c\}$
 
 La composizione gode di proprietà associativa ma non commutativa, dunque $S \circ R \not = R \circ S$
+
+**AGGIUNGERE FUNZIONI IDEMPOTENTI**
+
 
 ## Funzione parziale
 > **DEFINIZIONE**
 > 
-> Una funzione parziale si verifica quando quest'ultima viene definita da un sottoinsieme di $\R$ detto dominio di definizione (D), e aventi immagini reali.
+> Una funzione parziale si verifica quando quest'ultima viene definita da un sottoinsieme di $\mathbb{R}$ detto dominio di definizione (D), e aventi immagini reali.
 
 Nel caso di composizioni tra funzioni bisogna prestare una certa attenzione all'applicazione della definizione di composizione di funzioni, in quanto, date due funzioni parziali $f: A \to B$ e $g: B \to C$, il dominio di definizione $f \circ g$ potrebbe essere più piccolo dell'originale dominio di definizione di $f$.
 

@@ -24,7 +24,7 @@ Il più piccolo numero ordinale transfinito è $\omega$, un insieme contenente t
 
 > *Vedi video*: [The Infinite Hotel Parodox](https://www.youtube.com/watch?v=Uj3_KqkI9Zo)
 
-Il più piccolo numero cardinale transfinito è $\aleph_{0}$, che corrisponde alla potenza del numerabile (cardinalità di $\N$ o $\mathbb{Q}$). Il numero successivo è $2^{\aleph_{0}} = \aleph_{1}$, corrispondente alla potenza del continuo (cardinalità di $\R$ e $\wp(\N)$).
+Il più piccolo numero cardinale transfinito è $\aleph_{0}$, che corrisponde alla potenza del numerabile (cardinalità di $\mathbb{N}$ o $\mathbb{Q}$). Il numero successivo è $2^{\aleph_{0}} = \aleph_{1}$, corrispondente alla potenza del continuo (cardinalità di $\mathbb{R}$ e $\wp(\mathbb{N})$).
 
 ## Cardinalità
 
@@ -50,7 +50,7 @@ Un insieme si dice **infinto** se è equipotente ad una sua parte propria; in ca
 L'insieme di Cantor è uno specifico sottoinsieme dei numeri reali nell'intervallo $[0, 1]$. Questo insieme è famoso per avere proprietà che sembrano quasi contradditorie o paradossali. 
 
 > L'insieme di Cantor è un insieme continuo di dimensione zero. 
-> Non ha cardinalità numerabile, poiché è equipotente a $\R$.
+> Non ha cardinalità numerabile, poiché è equipotente a $\mathbb{R}$.
 
 *La polvere di Cantor è una versione multidimensionale dell'insieme di Cantor, ottenuta costituendo il prodotto cartesiano dell'insieme di Cantor con se stesso*.
 
@@ -95,7 +95,7 @@ La cardinalità degli insiemi infiniti è sempre uguali? No, ovviamente.
 
 **[Diagonale di Cantor](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)**
 
-Ci sono infiniti "contabili" (potenza del numerabile): $\N, \mathbb{I}, \mathbb{Q}$, che sono al livello "inferiore" di infinità ($\aleph_{0}$); e infiniti "non contabili (potenza del continuo, $\aleph_{1}$.
+Ci sono infiniti "contabili" (potenza del numerabile): $\mathbb{N}, \mathbb{I}, \mathbb{Q}$, che sono al livello "inferiore" di infinità ($\aleph_{0}$); e infiniti "non contabili (potenza del continuo, $\aleph_{1}$.
 
 ### Teorema di Cantor
 >**DEFINIZIONE**
@@ -107,14 +107,44 @@ Ci sono infiniti "contabili" (potenza del numerabile): $\N, \mathbb{I}, \mathbb{
 Contando l'insieme infinto, un insieme con $n$ elementi ha $2^n$ sottoinsieme. Quindi il teorema rimane valido perché $\forall n: 2^{n} > n$
 
 ## Ipotesi del continuo
-Il'ipotesi del continuo è un'ipotesi avanzata da Cantor riguardo alla possibile esistenza di numeri con una cardinalità intermedia tra $|\N|$ ($\aleph_{0}$)  e $|\R|$ $2^{\aleph_{0}}$.
+Il'ipotesi del continuo è un'ipotesi avanzata da Cantor riguardo alla possibile esistenza di numeri con una cardinalità intermedia tra $|\mathbb{N}|$ ($\aleph_{0}$)  e $|\mathbb{R}|$ $2^{\aleph_{0}}$.
 
 **Conclusione**
-- Insiemi infiniti non equipotenti a $\N$ o $\R$: sì, tramite i numeri transfiniti, iterando la costruzione dell'insieme delle parti": pertanto l'insieme dei numeri transfiniti è, a sua volta, transfinito. 
+- Insiemi infiniti non equipotenti a $\mathbb{N}$ o $\mathbb{R}$: sì, tramite i numeri transfiniti, iterando la costruzione dell'insieme delle parti": pertanto l'insieme dei numeri transfiniti è, a sua volta, transfinito. 
 - Esistono numeri transfiniti tra $\aleph_{0}$ e $2^{\aleph_{0}}$ (ipotesi del continuo)? Questa è una domanda indecidibile, cioè nè la proposizione nè la sua negata sono deducibili nei classici sistemi assiomatici della teoria assiomatica (Zermelo-Frankael).
 
 ## Funzioni non calcolabili
-Funzione calcolabile significa che se esiste un algoritmo che può svolgere il compito della funzione stessa, cioè se dato un input del dominio della funzione, questa è in grado di restituire il corrispondente output. Tutto ciò che è calcolabile, è Turing-calcolabile.
+Funzione calcolabile significa che se esiste un algoritmo che può svolgere il compito della funzione stessa, cioè se dato un input del dominio della funzione, questa è in grado di restituire il corrispondente output. Tutto ciò che è calcolabile, è Turing-calcolabile. 
+
+**Macchina di Turing**
+Rispondeva a un problema nella logica formale, in un momento in cui il mondo matematico si stava chiedendo "quanta matematica si può fare seguendo regole formali, o algoritmi".
+
+La macchina di Turing è un modello astratto di un calcolatore che manipola i dati su un nastro potenzialmente infinito, secondo una serie di regole ben definite e il suo stato interno.
+
+
+La macchina è formata da una testina di lettura e scrittura con cui è in grado di leggere e scrivere su un nastro potenzialmente infinito partizionato, in maniera discreta, in caselle. Ad ogni istante di tempo $t_{1}$, la macchina si trova in uno stato interno $s_{1}$ ben determinato, risultato dell'elaborazione compiuta sui dati letti.
+
+Lo stato interno, o configurazione, di un sistema è la condizione in cui si trovano le componenti della macchina ad un determinato istante di tempo t. Le componenti da considerare sono:
+
+- il numero della cella osservata
+- il suo contenuto
+- l'istruzione da eseguire
+
+Tra tutti i possibili stati, si distinguono:
+
+= una configurazione iniziale, per $t = t_{0}$ (prima dell'esecuzione del programma)
+= una configurazione finale, per $t = t_{n}$ (al termine dell'esecuzione del programma)
+= delle configurazioni intermedie, per t=ti (prima dell'esecuzione dell'istruzione oi)
+
+Implementare un algoritmo in questo contesto significa effettuare una delle quattro operazioni elementari
+
+- spostarsi di una casella a destra
+- spostarsi di una casella a sinistra
+- scrivere un simbolo preso da un insieme di simboli a sua disposizione su una casella
+- cancellare un simbolo già scritto sulla casella che sta osservando
+- oppure fermarsi
+
+Una macchina che può risolvere qualsiasi problema calcolabile, è detta Turing-equivalente (e.g. linguaggi di programmazione). 
 
 Se ci sono $\omega$ macchine $< 2^{\omega}$ funzioni. Dato che esitono più funzioni che macchine, ciò significa che esistono funzioni perfettamente definite ma non calcolabili!
 

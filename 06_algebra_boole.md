@@ -25,7 +25,7 @@ Un reticolo gode delle proprietà commutativa, associativa, e identità e soddis
     Con JOIN intendiamo "il superiore tra"
     Con MEET intendiamo "l'inferiore tra"
 
-Una rappresentazione alternativa è al JOIN e MEET, è considerare un insieme parzialmente ordinato $L = (A, \leq) \quad \quad \forall a, b \in A: \exist \ sup\{a, b\} \land  inf\{a, b\}$
+Una rappresentazione alternativa è al JOIN e MEET, è considerare un insieme parzialmente ordinato $L = (A, \leq) \quad \quad \forall a, b \in A: \exists \ sup\{a, b\} \land  inf\{a, b\}$
 
 [Lattice - Wolfram Alpha](https://mathworld.wolfram.com/Lattice.html)
 
@@ -85,7 +85,7 @@ a \lor \lnot a = \top
 a \land \lnot a = \bot
 $$
 
- Si può considerare come una generalizzazione delle algebre dei sottoinsiemi potenza (e.g. insiemi potenza $\wp (\N$)
+Si può considerare come una generalizzazione delle algebre dei sottoinsiemi potenza (e.g. insiemi potenza $\wp (\N$)
 
 Infatti dato un insieme A:
 

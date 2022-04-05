@@ -12,9 +12,10 @@
   - [Proprietà vere per verità vacua](#proprietà-vere-per-verità-vacua)
       - [Relazione riflessiva e antiriflessiva](#relazione-riflessiva-e-antiriflessiva)
       - [Relazione simmetrica e antisimmetrica](#relazione-simmetrica-e-antisimmetrica)
-    - [Relazione nè simmetrica nè antisimmetrica**](#relazione-nè-simmetrica-nè-antisimmetrica)
-      - [Relazione asimmetrica ma non transitiva**](#relazione-asimmetrica-ma-non-transitiva)
-      - [Relazione simmetrica ma non riflessiva**](#relazione-simmetrica-ma-non-riflessiva)
+    - [Relazione nè simmetrica nè antisimmetrica](#relazione-nè-simmetrica-nè-antisimmetrica)
+      - [Relazione asimmetrica ma non transitiva](#relazione-asimmetrica-ma-non-transitiva)
+      - [Relazione simmetrica ma non riflessiva](#relazione-simmetrica-ma-non-riflessiva)
+  - [Relazione transitiva ma non simmetrica né riflessiva](#relazione-transitiva-ma-non-simmetrica-né-riflessiva)
     - [Numero di relazioni su un set](#numero-di-relazioni-su-un-set)
   - [Chiusure](#chiusure)
     - [Chiusura riflessiva ( $r(S)\  o \ R^{+}_{r}$ )](#chiusura-riflessiva--rs--o--r_r-)
@@ -38,7 +39,7 @@
 > **DEFINIZIONE**: **Relazione**
 > Una relazione tra due insiemi $A$ e $B$ è un sottoinsieme del prodotto cartesiano $A \times B$.
 >
-> Data la coppia $(a, b)$ di un sottoinsieme $R$, $A$ è in relazione con $B$: $R \subseteq A \times B$.**
+> Data la coppia $(a, b)$ di un sottoinsieme $R$, $A$ è in relazione con $B$: $R \subseteq A \times B$.
 > 
 > La proposizione $(a, b) \in R$ viene spesso abbreviata con $xRy$
 
@@ -179,20 +180,22 @@ Ci sono fondamentalmente due casi in cui una relazione può essere simmetrica e 
 
 Dunque in un insieme di cardinalità $n$, il numero di relazioni simmetriche e antisimmetriche corrisponde al numero delle parti dell'insieme $2^n$.
 
-### Relazione nè simmetrica nè antisimmetrica**
+### Relazione nè simmetrica nè antisimmetrica
 TODO
 
-#### Relazione asimmetrica ma non transitiva**
+#### Relazione asimmetrica ma non transitiva
 Successore, essere il triplo, etc.
-
 
 Relazioni non transitive
     "is the successor of" (a relation on natural numbers)
     "is a member of the set" (symbolized as "∈")[2]
     "is perpendicular to" (a relation on lines in Euclidean geometry)
 
-#### Relazione simmetrica ma non riflessiva**
+#### Relazione simmetrica ma non riflessiva
 Essere perpendicolare a, essere parallelo a  
+
+## Relazione transitiva ma non simmetrica né riflessiva
+
 
 ### Numero di relazioni su un set
 

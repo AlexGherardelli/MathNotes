@@ -59,7 +59,7 @@ $~~~~~~~~~~~$
 - $P$ = essere un numero primo
 - $Q$ = essere minore di 10
 
-Nel mondo degli insiemi, si può vedere $P$ e $Q$ come due sottoinsiemi di \$N$, e i numeri primi minori di 10 come $P \cap Q$.
+Nel mondo degli insiemi, si può vedere $P$ e $Q$ come due sottoinsiemi di $\mathbb{N}$, e i numeri primi minori di 10 come $P \cap Q$.
 
 Se ne deduce che
 $$

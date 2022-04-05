@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 
 # Insiemi
 
@@ -28,7 +33,9 @@ Un insieme si può definire "elencando" i suoi elementi, che possono appartenere
 Dall'assioma di estensione ne consegue che: 
 - Non esiste una nozione di ordinamento all'interno di un insieme
 - Le ripetizioni in un insieme non vengono contate
->> **_ESEMPIO 1_**:  $A = \{3, 4, 5\} \quad B = \{5, 5, 3, 4\}$ sono insiemi equivalenti
+
+**Esempio**:
+$A = \{3, 4, 5\} \quad B = \{5, 5, 3, 4\}$ sono insiemi equivalenti
 
 
 **Relazione di sottoinsieme**
@@ -39,10 +46,9 @@ Come conseguenza dell'assioma di estensione, si può definire la relazione di **
 >**DEFINIZIONE: Sottoinsieme**
 $B \subset A$ **se e solo se ogni elemento di B è elemento di A**
 
-> **DEFINIIZIONE: Uguaglianza tra insiemi**
+> **DEFINIZIONE: Uguaglianza tra insiemi**
 > Se $A \subset B$ e $B \subset A$, allora $A = B$
 
-<br/>
 Esiste anche un insieme "speciale" che non contiene alcun elemento, l'insieme vuoto $\varnothing = \{\}$. L'insieme vuoto è sottoinsieme di qualunque insieme.
 
 > **DIMOSTRAZIONE** 
@@ -68,7 +74,7 @@ Così come per i numeri possono essere combinati tra loro usando delle operazion
 
 ### Intersezione
 $$
-A \cap B = \{x: x \in A \quad and \quad x \in B\}
+A \cap B = \{x: x \in A \quad \land \quad x \in B\}
 $$
 
 L'intersezione tra A e B contiene gli elementi contenuti in A **e** B: dunque ne risulta un set "più piccolo" di A e B (se A e B sono diversi).
@@ -76,7 +82,7 @@ L'intersezione tra A e B contiene gli elementi contenuti in A **e** B: dunque ne
 ### Unione 
  
 $$
-A \cup B = \{x: x \in A \quad or \quad x \in B \}
+A \cup B = \{x: x \in A \quad \lor \quad x \in B \}
 $$
 
 L'unione tra A e B contiene gli elementi contenuti in A **o** B: dunque ne risulta un set "più grande" sia di A che di B (se A e B sono diversi).
@@ -106,7 +112,7 @@ La differenza tra gli insiemi $A$ e $B$ è l'insieme delle cose che sono in A ma
 
 
 ### Complemento
-Il complemento è un tipo particolare di differenza che si verifica quando $B \subset A$, $A - B$ si chiamna complemento di B rispetto ad A$
+Il complemento è un tipo particolare di differenza che si verifica quando $B \subset A$, $A - B$ si chiama complemento di $B$ rispetto ad $A$
 
 $$
 \bar B = \{x \in A: x \notin B\}
@@ -206,22 +212,23 @@ $$
 
 > **ESEMPIO**
 > 
-> Se $A = \{ k, l, m\}$ e $B = \{ a, b, c \} $
+> Se $A = \{ k, l, m\}$ e $B = \{ a, b, c \} 
+> $
 > 
 > allora il loro prodotto cartesiano è  
 > 
-> $ A \times B = \{ (k, a), (l, b), (m, c) \}$
+> $A \times B = \{ (k, a), (l, b), (m, c) \}$
 
 Si possono ovviamente andare oltre la coppia ordinata e avere triple, quadruple, n-tuple ordinate. 
 
 $$
- A_{1} \times A_{2} \times ... \times A_{n} = \{ (x_{1}, x_{2}, ..., x_{n}: x_{i} \in A_{i} \ 
+A_{1} \times A_{2} \times ... \times A_{n} = \{ (x_{1}, x_{2}, ..., x_{n}: x_{i} \in A_{i} \ 
 \text{for each} \ i = 1, 2, ..., n \}
 $$
 
 **Proiezione**
 
-Sia $S \subseteq A \times B$. Si dice proiezione $S$ su $A$ l'insieme $\{a : a \in A \ e \ (a, b), \text{per almeno un } b \in B $}
+Sia $S \subseteq A \times B$. Si dice proiezione $S$ su $A$ l'insieme $\{a : a \in A \ e \ (a, b), \text{per almeno un } b \in B$}
 
 > **ESEMPIO**
 > 
@@ -234,6 +241,6 @@ Sia $S \subseteq A \times B$. Si dice proiezione $S$ su $A$ l'insieme $\{a : a \
 ## Antinomie degli insiemi - Il paradosso di Russell
 L'insieme di tutti gli insiemi che non appartengono a se stessi appartiene a se stesso se e solo se non appartiene a se stesso.
 
-Formalmente: $se R = {x : x \not \in x}, \ allora R \not R \iff R \in R$
+Formalmente: $se \ R = {x : x \not \in x}, \ allora \ R \not R \iff R \in R$
 
 Una versione più semplice e "scherzosa" è il paradosso del barbiere: In un villaggio, un barbiere ben sbarbato fa la barba a tutti gli uomini del villaggio e nessun uomo rade se stesso. Dunque, chi rade il barbiere?
