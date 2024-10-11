@@ -1,5 +1,7 @@
 # Main ideas
-- 
+- #### Idea 1
+- Idea 2
+- Idea 3
 
 # Summary
 **Graphs**: It is a network that helps define and and visualize relationships (edges) between various components (nodes/vertex)
@@ -40,13 +42,13 @@ Trees are subset of graphs with three specific properties:
 - **Adjency matrix**
 
 
-!![complete-matrix.png](assets/complete-matrix.png)
+![complete-matrix.png](complete-matrix.png.md)
 
 **Edge set**
-!![A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg](assets/A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg)
+![A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg](A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg.md)
 
 **Adjency list**
 Very common, memory-efficient way of represent graphs, especially *sparse graphs* i.e. graphs with many nodes and not that many edges
 
-!![adjacency_list.png](assets/adjacency_list.png)
+![adjacency_list.png](adjacency_list.png.md)
 

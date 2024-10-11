@@ -1,6 +1,6 @@
 Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?
 
-!![Pasted image 20241004162932.png](assets/Pasted image 20241004162932.png)
+![Pasted image 20241004162932.png](Pasted image 20241004162932.png.md)
 
 Also more formally: given a complete [graph](Graph theory.md) with weighted edges (as an [adjacency matrix](Graph theory.md)) what is the [Hamiltonian cycle](Hamiltonian cycle.md) of minimum cost?
 
