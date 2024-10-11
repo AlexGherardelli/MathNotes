@@ -11,7 +11,7 @@ related_pages:
 
 Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?
 
-![[Pasted image 20241004162932.png]]
+![Pasted image 20241004162932.png](assets/Pasted%20image%2020241004162932.png)
 
 Also more formally: given a complete [[Graph theory |graph]] with weighted edges (as an [[Graph theory |adjacency matrix]]) what is the [[Hamiltonian cycle]] of minimum cost?
 

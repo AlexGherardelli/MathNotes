@@ -49,14 +49,15 @@ Trees are subset of graphs with three specific properties:
 ## Graph Representations
 - **Adjency matrix**
 
-
-![[complete-matrix.png]]
+![complete-matrix.png](assets/complete-matrix.png)
 
 **Edge set**
-![[A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg]]
+
+![A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg](assets/A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg)
 
 **Adjency list**
 Very common, memory-efficient way of represent graphs, especially *sparse graphs* i.e. graphs with many nodes and not that many edges
 
-![[adjacency_list.png]]
+
+![adjacency_list.png](assets/adjacency_list.png)
 
