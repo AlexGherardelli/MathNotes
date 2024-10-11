@@ -1,15 +1,5 @@
----
-type: notes
-subject: computer science
-aliases: 
-related_pages:
-  - "[[Travelling Salesman Problem (TSP)]]"
-parent: "[[00. Math and CS MOC]]"
----
 # Main ideas
-- #### Idea 1
-- Idea 2
-- Idea 3
+- 
 
 # Summary
 **Graphs**: It is a network that helps define and and visualize relationships (edges) between various components (nodes/vertex)
@@ -49,15 +39,14 @@ Trees are subset of graphs with three specific properties:
 ## Graph Representations
 - **Adjency matrix**
 
-![complete-matrix.png](assets/complete-matrix.png)
+
+![[complete-matrix.png]]
 
 **Edge set**
-
-![A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg](assets/A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg)
+![[A-graph-G-is-described-by-a-vertex-set-VG-and-an-edge-set-EG-A-A-simple.jpg]]
 
 **Adjency list**
 Very common, memory-efficient way of represent graphs, especially *sparse graphs* i.e. graphs with many nodes and not that many edges
 
-
-![adjacency_list.png](assets/adjacency_list.png)
+![[adjacency_list.png]]
 
