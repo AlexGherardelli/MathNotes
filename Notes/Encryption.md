@@ -1,6 +1,0 @@
-# Main ideas 
-
-
-
-# Summary
-
