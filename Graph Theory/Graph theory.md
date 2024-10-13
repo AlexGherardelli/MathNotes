@@ -1,5 +1,6 @@
 # Main ideas
-- 
+- Graphs and main definition
+- DFS
 
 # Summary
 **Graphs**: It is a network that helps define and and visualize relationships (edges) between various components (nodes/vertex)
@@ -50,3 +51,14 @@ Very common, memory-efficient way of represent graphs, especially *sparse graphs
 
 !![adjacency_list.png](assets/adjacency_list.png)
 
+# Depth-First Search (DFS)
+
+```python
+marked = [False] * G.size()
+def dfs(G, v):
+	visit(v)
+	marked[v] == True
+	for w in G.neighbours(v):
+		if not marked[w]
+			dfs(G, w)
+```
